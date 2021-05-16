@@ -26,3 +26,27 @@ yarn
 ```
 
 ## Rename the project and customize the SplashScreen, and you're ready to go 😊
+
+## Using RN-Vector && SVG icons and JSON animations
+- SVGs
+  Just copy your SVGs into Assets/SVG folder and import into index.js in Assets/SVG
+  You can then use it by
+  ```
+  import SVGIcon from 'path_to_asset_folder/SVG'
+  ```
+  and
+  ```
+  <SVGIcon.YourIconName width={width} height={height} />
+  ```
+- JSON
+  ```
+  import LottieView from 'lottie-react-native'
+  ```
+  and import json file:
+  ```
+  const animation = require('path_to_json_file')
+  ```
+  and use it with:
+  ```
+  <LottieView source={animation}/>
+  ```
