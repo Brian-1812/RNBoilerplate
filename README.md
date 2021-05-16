@@ -7,7 +7,7 @@ Ready to go React Native Boilerplate
   - SplashScreen and Android Navigation Bar Color Change Support
   - Multilanguage (internationalization and localization) support
   - FastImage for image caching
-  - React-native-vector-icons && SVGs for custom icons && lottie animations
+  - React-native-vector-icons & SVGs for custom icons & lottie animations
   - Call APIs with Axios client (api.get, etc)
   - React-native-sensitive-info for storing tokens, etc..
 
@@ -27,7 +27,7 @@ yarn
 
 ## Rename the project and customize the SplashScreen, and you're ready to go 😊
 
-## Using RN-Vector && SVG icons and JSON animations
+## Using RN-Vector & SVG icons & JSON animations
 - SVGs
   Just copy your SVGs into Assets/SVG folder and import into index.js in Assets/SVG
   You can then use it by
