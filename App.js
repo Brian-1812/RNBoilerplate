@@ -1,23 +1,16 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow strict-local
- */
- import 'react-native-gesture-handler';
 import React from 'react';
+import 'intl';
+import 'intl/locale-data/jsonp/en';
 import { View, Text } from 'react-native'
 import { NavigationContainer } from '@react-navigation/native';
-import { navigationRef } from './src/services/NavigationService';
+import { navigationRef } from './src/Services/NavigationService';
+import StackNavigator from './src/Navigation/StackNavigator'
 
 const App = () => {
 
   return (
     <NavigationContainer ref={navigationRef}>
-      <View>
-        <Text>Hello</Text>
-      </View>
+      <StackNavigator/>
     </NavigationContainer>
   );
 };

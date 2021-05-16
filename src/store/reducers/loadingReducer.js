@@ -1,4 +1,4 @@
-import * as types from '../actions/types';
+import * as types from '../Actions/types';
 
 const initalState = {
   generalLoading: false,

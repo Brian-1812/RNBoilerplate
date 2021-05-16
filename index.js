@@ -8,7 +8,7 @@ import { Provider as StoreProvider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
 import App from './App';
 import { name as appName } from './app.json';
-import configureStore from './src/store/Store';
+import configureStore from './src/Store/Store';
 
 export default function Main() {
   const { store, persistor } = configureStore();
