@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import { enableScreens } from 'react-native-screens';
 import { useSelector } from 'react-redux';
-// import SplashScreen from 'react-native-splash-screen';
+import SplashScreen from 'react-native-splash-screen';
 import I18n from '../Utils/i18n';
 import * as StackScreens from '../Screens/StackScreens';
 
@@ -18,7 +18,7 @@ function StackNavigator() {
     if (language) {
       I18n.locale = language;
     }
-    // SplashScreen.hide();
+    SplashScreen.hide();
   }, []);
   return (
       <Stack.Navigator
