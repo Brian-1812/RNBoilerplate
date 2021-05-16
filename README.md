@@ -17,6 +17,12 @@ Ready to go React Native Boilerplate
 $ git clone https://github.com/Brian-1812/RNBoilerplate.git
 ```
 Install dependencies
-```sh $ npm install ``` or ```sh yarn ```
+```sh
+$ npm install
+``` 
+or 
+```sh 
+yarn 
+```
 
 ## Rename the project and customize the SplashScreen, and you're ready to go 😊
