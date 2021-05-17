@@ -18,11 +18,11 @@ $ git clone https://github.com/Brian-1812/RNBoilerplate.git
 ```
 Install dependencies
 ```sh
-$ npm install
+$ npm install && npx pod-install
 ``` 
 or 
 ```sh 
-yarn 
+yarn && npx pod-install
 ```
 
 ## Rename the project and customize the SplashScreen, and you're ready to go 😊
