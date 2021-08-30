@@ -1,5 +1,5 @@
 import { takeLatest } from 'redux-saga/effects';
-import * as types from '../Actions/types';
+import * as types from '../actions/types';
 
 function* mySaga() {
   yield null
